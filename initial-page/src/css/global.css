@@ -1,0 +1,83 @@
+:root {
+  --rose :#D1A59E;
+  --white : white;
+  --ouro : #D8AD6C;
+}
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+html {
+  font-family : "Inter", sans-sans;
+}
+
+main {
+  background-image : url(../assets/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width : 100%;
+  max-width : 1120px;
+  margin: 0 auto;
+  height : 100vh;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.content img{
+  width : 300px;
+}
+
+.content .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h2 {
+  font-size: 3rem;
+  color : var(--ouro)
+  
+}
+
+.content span {
+  font-size: 1.05rem;
+  color : var(--ouro);
+  margin-top: -5px;
+  font-weight : 600;
+}
+
+.loading {
+  width: 400px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.05)
+}
+
+.social-icons a img {
+  width: 40px;
+}
